@@ -1,0 +1,28 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "name": "Tap my beer",
+            "description": "This application allows for local brewries to market their products locally.",
+            "technologies": ["Vue", "Node.js", "Springboot" ],
+            "image_urls": ["TapMyBeer.jpg", "TapMyBeer-2.jpg", "TapMyBeer-3.jpg", "TapMyBeer-4.jpg", "TapMyBeer-5.jpg" ],
+            "url": "https://github.com/CSIS3275SoftEng/Winter2021GroupProject"
+        },
+        {
+            "id": 1,
+            "name": "Oakwood Pacific",
+            "description": "This website was created for a client using Shoppify",
+            "technologies": ["shopify", "css", "html"],
+            "image_urls": ["OakwoodPacific.jpg", "OakwoodPacific-2.jpg", "OakwoodPacific-3.jpg"],
+            "url": "https://www.oakwoodpacific.com"
+        },
+        {
+            "id": 2,
+            "name": "Lemonaid",
+            "description": "Lemonaid is a mobile app which has been designed to serve match patients to nearby doctors.",
+            "technologies": ["Java", "SQLite", "XML"],
+            "image_urls": ["Lemonaid.jpg", "Lemonaid-2.jpg", "Lemonaid-3.jpg", "Lemonaid-4.jpg"],
+            "url": "https://github.com/developer-jiheui/LemonAid"
+        }
+    ]
+}

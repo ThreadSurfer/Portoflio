@@ -1,0 +1,49 @@
+extends layout.pug
+
+block content 
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  article.grid-container.portfolio-intro.portfolio-project
+    .grid-x
+      .cell.small-6.medium-9.large-9
+
+        //- Add your name.
+        h1 Joel Giladi
+
+        //- Feel free personalize the title below
+        p.lead.text-light
+          | Full Stack JavaScript Developer.
+
+        //- Replace the boilerplate below with your Elevator pitch below.
+        .portfolio-bio
+          p
+            | Software developer with over 2 years experience. Well knowledged in front end development, with a beginner's exposure to back-end.
+          p 
+          
+            | Very knowledgeable in blockchain technology and networking. Past experience working for Telecom companies, and well familiar with networking protocols and routing.
+          p
+            | Worked in both professional and school settings, and can provide multiple project samples upon request.
+      .cell.portfolio-meta.small-6.medium-2.large-3
+        h6 Skills
+
+        //- Replace the text in the li tags below with your own skills.  At this point, you should be able to list at least ten skills.
+        ul
+          li Express
+          li NodeJS
+          li Vue
+          li React
+          li Java
+          li MongoDB
+        h6 Contact Info
+
+        //- Add your own contact info
+        ul
+          li 778-707-2522
+          li giladij@icloud.com
+
+        //- Add URLs to the hrefs below to link to your social media accounts.
+        a.button.expanded(href='https://www.linkedin.com/in/joel-giladi/') LinkedIn
+        a.button.expanded(href='https://github.com/ThreadSurfer') GitHub
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  
