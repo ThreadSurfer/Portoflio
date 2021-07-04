@@ -14,6 +14,7 @@
             "description": "This website was created for a client using Shoppify",
             "technologies": ["shopify", "css", "html"],
             "image_urls": ["OakwoodPacific.jpg", "OakwoodPacific-2.jpg", "OakwoodPacific-3.jpg"],
+            "video": "video.mp4",
             "url": "https://www.oakwoodpacific.com"
         },
         {

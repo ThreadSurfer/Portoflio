@@ -16,6 +16,8 @@ block content
       .cell.portfolio-meta.small-6.medium-2.large-3
         h6 Technologies
 
+
+
         //- Use an `each` iterator to replace the li tags below and interpolation to dynamically add the technologies used in each project.
         ul
           each technology in data[projectId].technologies
@@ -30,6 +32,18 @@ block content
         else
           a.button.expanded(href=data[projectId].url) GitHub Repo
 
+
+
+
+        //- <video width="320" height="240" controls>
+        //- <source src="movie.mp4" type="video/mp4">
+        //- <source src="movie.ogg" type="video/ogg">
+        //- Your browser does not support the video tag.
+        //- </video>
+
+    if (data[projectId].video)
+      video(width="100%" height="100%" controls)
+        source(src='/images/' + data[projectId].video, type="video/mp4")
 
 
     

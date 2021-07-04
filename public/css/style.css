@@ -155,6 +155,10 @@ img {
   display: inline;
 }
 
+video {
+  display: inline;
+}
+
 .projectDemo {
   display: flex;
   flex-wrap: wrap;
