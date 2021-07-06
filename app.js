@@ -32,7 +32,6 @@ app.get('/project/:projectId', (req, res) => {
     res.render('project', {projectId: req.params.projectId, data: data.projects}); //This will send the projectId as a param when the user clicks on a project.
 });
 
-app.listen(3000, () => {
+app.listen(process.env.PORT || 3000, () => {
     console.log('App running on port 3000');
 })
-
