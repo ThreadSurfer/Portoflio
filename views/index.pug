@@ -18,7 +18,7 @@ block content
       div.projectDemo(style="display: flex; flex-wrap: wrap;")
         each project in data 
           div.cell
-            a(href='./project/' + data.indexOf(project)) 
+            a(href='/project/' + data.indexOf(project)) 
               img(src='/images/'+project.image_urls[0])
               h5(style='text-align: center;')= project.name
       //- Use a combination of interpolation and template literals as needed to dynamically generate the the routes in the href, as well as the img's src and the projects title.
